@@ -1,8 +1,8 @@
 # Регистрация & авторизация
 ### HTML-шаблон выглядит следующим образом 
-![Регистрация]![reg](https://github.com/ekthrn/Registration-and-authorization/assets/117830116/b7554e88-b62d-4673-90b5-e85bee6c6a14)
-![Авторизация]![auth](https://github.com/ekthrn/Registration-and-authorization/assets/117830116/8cb0e7f4-7e4d-4b07-8f61-d3cff90b4fde)
-![Домашняя страница]![home](https://github.com/ekthrn/Registration-and-authorization/assets/117830116/80e5a900-a667-4e56-87c2-fa65448e5c36)
+![reg](https://github.com/ekthrn/Registration-and-authorization/assets/117830116/b7554e88-b62d-4673-90b5-e85bee6c6a14)
+![auth](https://github.com/ekthrn/Registration-and-authorization/assets/117830116/8cb0e7f4-7e4d-4b07-8f61-d3cff90b4fde)
+![home](https://github.com/ekthrn/Registration-and-authorization/assets/117830116/80e5a900-a667-4e56-87c2-fa65448e5c36)
 
 ### База данных
 В текущем проекте уже существует готовый SQL для создания таблицы `users`, который можно использовать, импортировав файл `database/reg_auth.sql` с готовый базой данных и таблицей `users`
