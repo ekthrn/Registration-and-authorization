@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+input,
+span,
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: whitesmoke;
+    border: 1px solid #bcb9b9;
+    border-radius: 50px;
+
+}
+
+.home-form {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: whitesmoke;
+    border: 1px solid #bcb9b9;
+    border-radius: 50px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #484242;
+}
+
+h2 {
+    text-align: center;
+    color: #484242;
+}
+
+span.message {
+    font-size: x-small;
+    font-weight: 500;
+    display: block;
+    margin-left: 15px;
+    padding-bottom: 8px;
+    color: red;
+}
+
+span.login,
+span.face {
+    position: relative;
+    font-size: 600%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+span.input {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.material-symbols-outlined {
+    color: #6d6565;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 12px;
+    padding-left: 40px;
+    border: 2px solid #6d6565;
+    border-radius: 30px;
+    outline: none;
+
+    font-weight: 500;
+}
+
+input.password {
+    border: none;
+    outline: none;
+}
+
+div.password {
+    width: 100%;
+    margin: 5px 0;
+    background: #ffffff;
+    border: 2px solid #6d6565;
+    border-radius: 25px;
+}
+
+.button-bottom {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button-no-border {
+    border: unset;
+    background: none;
+}
+
+.button-border {
+    border: 2px solid #710f0f;
+    background: rgb(251, 97, 97);
+    border-radius: 20px;
+}
+
+.button-text {
+    color: white;
+    font-weight: 600;
+}
+
+a {
+    font-weight: 600;
+}
+
+.form-bottom-auth {
+    margin-left: auto;
+}
+
+.form-bottom-reg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+}
