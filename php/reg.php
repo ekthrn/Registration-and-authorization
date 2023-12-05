@@ -13,7 +13,7 @@ $email = $_POST['email'];
 $login = $_POST['login'];
 $password = $_POST['password'];
 
-$checkDuplicate = mysqli_query($connect, "SELECT * FROM users WHERE phone = '$phone'");
+$checkDuplicate = mysqli_query($connect, "SELECT * FROM users WHERE login = '$login'");
 if (mysqli_num_rows($checkDuplicate) > 0) {
     $response = [
         "status" => false
